@@ -82,10 +82,7 @@ DATABASES = {
 }
 
 
-CORS_ALLOWED_ORIGINS = [
-    "https://task-manager-git-main-mauriciodds-projects.vercel.app",
-    "https://task-manager.vercel.app",
-]
+CORS_ALLOW_ALL_ORIGINS = True
 
 
 
