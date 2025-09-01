@@ -84,8 +84,9 @@ DATABASES = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://task-manager-sage-tau.vercel.app/"
+    "https://task-manager-git-main-mauriciodds-projects.vercel.app"
 ]
+
 
 
 # Password validation
