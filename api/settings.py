@@ -119,3 +119,6 @@ CORS_ALLOW_ALL_ORIGINS = True  # para dev, en prod puedes restringirlo
 # Default primary key
 # ------------------------
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+ALLOWED_HOSTS = ["*",]
+CSRF_TRUSTED_ORIGINS = ["https://*.railway.app"]
