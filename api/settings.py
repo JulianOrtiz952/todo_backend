@@ -26,8 +26,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get("SECRET_KEY")
 DEBUG = os.environ.get("DEBUG") == "True"
 
-ALLOWED_HOSTS = ["todobackend-production-d3bb.up.railway.app"]
-
+ALLOWED_HOSTS = ["*", "todobackend-production-d3bb.up.railway.app"]
 
 
 # Application definition
@@ -84,8 +83,10 @@ DATABASES = {
 
 
 CORS_ALLOWED_ORIGINS = [
-    "https://task-manager-git-main-mauriciodds-projects.vercel.app"
+    "https://task-manager-git-main-mauriciodds-projects.vercel.app",
+    "https://task-manager.vercel.app",
 ]
+
 
 
 
